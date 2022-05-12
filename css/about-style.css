@@ -19,11 +19,11 @@ html {
   }
   
 .endtext {
-  background-color: rgb(169, 179, 84);
+  background-color: rgb(147, 161, 40);
 }
 
 .bio {
-  background-color: rgb(169, 179, 84);
+  background-color: rgb(147, 161, 40);
 }
 
 @media screen and (max-width: 600px) {
