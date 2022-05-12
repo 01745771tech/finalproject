@@ -1,0 +1,9 @@
+html {
+    box-sizing: border-box;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 2rem;
+    background-color: rgb(187, 179, 194);
+    line-height: 125%;
+    color: rgb(108, 31, 180)
+  }
+  
