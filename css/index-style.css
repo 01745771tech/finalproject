@@ -89,3 +89,13 @@ background-color: rgb(146, 46, 212);
 background-color: rgb(146, 46, 212);
   }
 }
+
+ul::before {
+  content: "\1F47F";
+  font-size: 2rem;
+}
+
+p::before {
+  content: "\1F47F";
+  font-size: 2rem;
+}
