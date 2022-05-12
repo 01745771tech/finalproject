@@ -1,0 +1,91 @@
+html {
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: large;
+    line-height: 1.5;
+    color: rgb(128, 51, 187);
+}
+
+
+  nav a:link {
+    font-style: italic;
+    font-size: 15px;
+    font-weight: bolder;
+    text-decoration:underline, .5rem; 
+    letter-spacing: 2rem;
+    line-height: .5em;
+    padding: 8px;
+    text-decoration: none;
+    width: 25%;
+  }
+
+  a:hover {
+      background-color: rgb(138, 138, 84);
+  }
+
+  
+  p {
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+    font-style: initial;
+    line-height: 5em;
+    letter-spacing: 0.6rem;
+    margin: 0;
+    color: black;
+    background-color: rgb(5, 5, 5);
+  }
+  
+
+  
+  nav{
+  float: center;
+  text-align: center;
+  top: 0;
+  background-color: rgba(140, 101, 151, 0.514);
+  transform:none
+  
+  }
+  
+  .guide{
+    text-align: center;
+    float: bottom;
+    bottom: 1;
+    background-color: rgb(140, 101, 151, 0.514);
+  }
+
+.fade-img{
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ width: 50%;
+}
+
+ul {
+    margin: 0%;
+    background-color: rgb(15, 14, 14);
+  }
+
+p{
+    color: blueviolet;
+    height: 80%;
+}
+
+.ravenstree {
+    position:absolute center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 40%;
+}
+
+@media screen and (max-width: 600px) {
+  body {
+background-color: rgb(146, 46, 212);
+  }
+}
+
+@media screen and (max-height: 600px) {
+  body {
+background-color: rgb(146, 46, 212);
+  }
+}

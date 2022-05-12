@@ -1,1 +1,53 @@
+html {
+    float: left;
+    box-sizing: border-box;
+    font-family: 'Rubik Wet Paint', cursive;
+    font-size: 3rem;
+    line-height: 150%;
+  }
 
+
+.viaemail {
+    max-width: 20%;
+    margin-left: 12%;
+    margin-right: 9%;
+    border-radius: 50%;
+    box-shadow: 10px 8px 2px #ccc;
+    shape-outside: circle(50%);
+    outline: dotted 4px rgb(146, 46, 212);
+}
+
+.viaphone {
+    max-width: 20%;
+    margin-left: 12%;
+    margin-right: 9%;
+    border-radius: 80%;
+    box-shadow: 10px 8px 2px #ccc;
+    shape-outside: circle(50%);
+    outline: dotted 4px rgb(146, 46, 212);
+}
+
+@media only screen and (max-width: 700px){
+    .responsive {
+      width: 50%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 500px){
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  h1{
+    text-decoration-line: underline;
+    color: rgb(14, 14, 177);
+    background-color: rgb(145, 115, 173);
+  }
+
+li {
+    text-decoration-line: underline;
+    color: rgb(1, 1, 14);
+    background-color: rgb(133, 111, 153);
+}
