@@ -1,6 +1,52 @@
 html {
     font-family: 'Rubik Wet Paint', cursive;
     font-size: large;
-    line-height: 1.5;
-    color: rgb(60, 85, 197);
+  }
+
+h1{
+    text-align: center;
+    background-image: linear-gradient(60deg, red, blue, purple, green);
+  }
+
+p {
+        text-align: center;
+        font-size: medium;
+        font-weight: 700;
+        font-style: initial;
+        line-height: 5em;
+        letter-spacing: 0.6rem;
+        background-color: aqua;
 }
+
+.fade-img{
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+  background-color: rgb(54, 175, 115);
+    }
+  }
+  
+  @media screen and (max-height: 600px) {
+    body {
+  background-color: rgb(53, 148, 77);
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    body {
+  background-color: rgb(23, 190, 190);
+    }
+  }
+
+  @media screen and (min-width: 500px) {
+    body {
+  background-color: rgb(32, 200, 206);
+    }
+  }
+  

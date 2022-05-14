@@ -108,3 +108,28 @@ html {
      button[type=submit] {
       margin-top: 2rem;
       }
+
+      @media screen and (max-width: 600px) {
+        body {
+      background-color: rgb(54, 175, 115);
+        }
+      }
+      
+      @media screen and (max-height: 600px) {
+        body {
+      background-color: rgb(53, 148, 77);
+        }
+      }
+    
+      @media screen and (min-width: 500px) {
+        body {
+      background-color: rgb(54, 175, 115);
+        }
+      }
+    
+      @media screen and (min-width: 500px) {
+        body {
+      background-color: rgb(53, 148, 77);
+        }
+      }
+      
