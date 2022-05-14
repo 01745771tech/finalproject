@@ -2,27 +2,25 @@ html {
     font-family: 'Rubik Wet Paint', cursive;
     font-size: large;
     line-height: 1.5;
-    color: rgb(128, 51, 187);
+    color: rgb(60, 85, 197);
 }
 
-
-  nav a:link {
-    font-style: italic;
-    font-size: 15px;
-    font-weight: bolder;
-    text-decoration:underline, .5rem; 
-    letter-spacing: 2rem;
-    line-height: .5em;
-    padding: 8px;
-    text-decoration: none;
-    width: 25%;
-  }
-
   a:hover {
-      background-color: rgb(138, 138, 84);
+      background-color: rgb(50, 150, 80);
   }
 
+nav a:link {
+ 
+}
   
+  nav{
+  float: center;
+  text-align: center;
+  top: 0;
+  background-color: rgba(40, 126, 83, 0.514);
+  transform:none
+  }
+
   p {
     text-align: center;
     font-size: medium;
@@ -30,72 +28,62 @@ html {
     font-style: initial;
     line-height: 5em;
     letter-spacing: 0.6rem;
-    margin: 0;
-    color: black;
-    background-color: rgb(5, 5, 5);
   }
   
-
-  
-  nav{
-  float: center;
-  text-align: center;
-  top: 0;
-  background-color: rgba(140, 101, 151, 0.514);
-  transform:none
-  
-  }
-  
-  .guide{
-    text-align: center;
-    float: bottom;
-    bottom: 1;
-    background-color: rgb(140, 101, 151, 0.514);
-  }
-
-.fade-img{
- display: block;
- margin-left: auto;
- margin-right: auto;
- width: 50%;
-}
-
 ul {
     margin: 0%;
-    background-color: rgb(15, 14, 14);
+    background-color: rgb(57, 175, 83);
   }
 
-p{
-    color: blueviolet;
-    height: 80%;
-}
+  header {
+    text-align: center;
+  }
 
-.ravenstree {
-    position:absolute center;
+  .fade-img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 40%;
+    width: 30%;
+  }
+
+.elogo {
+  display: block;
+  width: 150px;
+  height: 6em;
+  object-fit: fill;
+  object-position: 15% 100%;
 }
+
+.plogo {
+  width: 150px;
+  height: 6em;
+  object-fit: fill;
+  object-position: 15% 100%;
+}
+
+ul::before {
+  content: "\1F527";
+  font-size: 2rem;
+}
+
+ul::after{
+  content: "\1F527";
+  font-size: 2rem;
+}
+
+h1{
+  background-image: linear-gradient(60deg, red, blue, purple, green);
+}
+
 
 @media screen and (max-width: 600px) {
   body {
-background-color: rgb(146, 46, 212);
+background-color: rgb(54, 175, 115);
   }
 }
 
 @media screen and (max-height: 600px) {
   body {
-background-color: rgb(146, 46, 212);
+background-color: rgb(53, 148, 77);
   }
-}
-
-ul::before {
-  content: "\1F47F";
-  font-size: 2rem;
-}
-
-p::before {
-  content: "\1F47F";
-  font-size: 2rem;
 }
